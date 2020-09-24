@@ -14,7 +14,10 @@ namespace HelloWorldProject
             total = total + numbers[3];
             total = total + numbers[4];
             Console.WriteLine(total);
-           
+            var average = total / 5.0;
+            Console.WriteLine(average);
+
+
          }
     }
 }
